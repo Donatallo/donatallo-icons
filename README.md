@@ -1,6 +1,8 @@
 # Custom icons for donatallo project
 
-![Icons](icons.svg)
+![Icons](icons.svg) for custom payment methods.
+
+Run ```make``` to generate png files (requires ```inkscape``` and ```optipng```).
 
 ## Author
 
