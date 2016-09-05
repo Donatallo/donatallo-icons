@@ -6,7 +6,7 @@ ICONS= \
 		credit_card
 
 all:
-	for i in ${ICONS}; do \
+	@for i in ${ICONS}; do \
 		echo "===> Exporting $$i.png"; \
 		inkscape --export-png=$$i.png --export-id=$$i icons.svg; \
 		echo "===> Optimizing $$i.png"; \
