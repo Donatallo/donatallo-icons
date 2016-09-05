@@ -12,3 +12,6 @@ all:
 		echo "===> Optimizing $$i.png"; \
 		optipng -q -o99 $$i.png; \
 	done
+
+clean:
+	rm -f *.png
